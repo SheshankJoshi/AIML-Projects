@@ -1,0 +1,41 @@
+,Variable,Description
+,ID,Client Loan application ID
+float,Client_Income,Client Income in $
+object,Car_Owned,Any Car owned by client before applying for the loan for another car (0 means No and 1 means otherwise)
+object,Bike_Owned,Any bike owned by client (0 means No and 1 means otherwise)
+object,Active_Loan,Any other active loan at the time of aplication of loan (0 means No and 1 means otherwise)
+object,House_Own,Any house owned by client (0 means No and 1 means otherwise)
+float,Child_Count,Number of children the client has
+float,Credit_Amount,Credit amount of the loan in $
+float,Loan_Annuity,Loan annuity in $
+object,Accompany_Client,Who accompanied the client when client applied for the loan
+object,Client_Income_Type,Clients income type
+object,Client_Education,Highest level of education ahieved by client
+object,Client_Marital_Status,"Marital status of client (D- Divorced, S- Single, M- Married, W- Widowed)"
+object,Client_Gender,Gender of the Client
+object,Loan_Contract_Type,"Loan Type (CL- Cash Loan, RL- Revolving Loan)"
+object,Client_Housing_Type,Client Housing situation
+float,Population_Region_Relative,Relative population of the region where the client is living. Higher value means the client is living in more populated area
+float,Age_Days,Age of the client at the time of application submission
+float,Employed_Days,"Days before the application, the client started earning"
+float,Registration_Days,"Days before the loan application, the client changed his/her registration"
+float,ID_Days,"Days before the loan application, the client changed his/her identity document with which the loan was applied"
+float,Own_House_Age,Age of Client's house in years
+object,Mobile_Tag,Mobile Number provided by Client (1 means Yes and 0 means No)
+object,Homephone_Tag,Homephone Number provided by Client (1 means Yes and 0 means No)
+object,Workphone_Working,Was workphone number reachable (1 means Yes and 0 means No)
+object,Client_Occupation,Client Occupation type
+float,Client_Family_Members,Number of family members does client have
+object,Cleint_City_Rating,Client city rating. 3 denotes best and 2 denotes good and 1 denotes average
+object,Application_Process_Day,"Day of the week on which client applied for the loan (0-Sun, 1-Mon,2-Tues, 3-Wed, 4-Thrus,5-Fri, 6-Sat)"
+float,Application_Process_Hour,hour of the day on which client applied for the loan
+object,Client_Permanent_Match_Tag,Indication if client contact address does not match permanent address.
+object,Client_Contact_Work_Tag,Indication if client work address does not match contact address.
+object,Type_Organization,Type of organization where client works
+float,Score_Source_1,Score sourced from other source. This is a normalzied socre
+float,Score_Source_2,Score sourced from other source. This is a normalzied socre
+float,Score_Source_3,Score sourced from other source. This is a normalzied socre
+float,Social_Circle_Default,How many friends/family member of client defaulted on any loan payment in last 60 days
+float,Phone_Change,"How many days before the loan application, client changed his/her phone"
+float,Credit_Bureau,Total number of enquiries in last year
+object,Default,1 means the client defaulted on loan payments and 0 means otherwise
