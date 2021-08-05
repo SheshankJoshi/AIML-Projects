@@ -1,1 +1,1 @@
-web: bundle exec app.py
+web: exec app.py
